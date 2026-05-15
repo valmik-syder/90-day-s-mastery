@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    font-family:  sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+}
+
+/* --------nav--------- */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    background: #0a0a0a;
+    color: white;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #4f6ef7;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+.nav-links a:hover {
+    opacity: 1;
+    color: #4f6ef7;
+}
+
+
+/* -----------HERO-------------- */
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 40px;
+    background: #0a0a0a;
+    color: white;
+    min-height: 70vh;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    max-width: 750px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.hero p {
+    max-width: 580px;
+    font-size: 1.1rem;
+    opacity: 0.65;
+    line-height: 1.7;
+    margin-bottom: 44px;
+}
+
+
+.cta-btn {
+    background: #4f6ef7;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cta-btn:hover {
+    background: #3a58e0;
+}
+
+/* ========SERVICES========== */
+
+
+.services {
+    padding: 80px 60px;
+    background: #f9f9f9;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 48px;
+    color: #0a0a0a;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.services-card{
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 32px 28px;
+    width: 280px;
+}
+
+.services-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.service-card {
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 32px 28px;
+    width: 280px;
+}
+
+
+/* =======FOOTER ============*/
+
+
+footer {
+    text-align: center;
+    padding: 32px;
+    background: #0a0a0a;
+    color: white;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
